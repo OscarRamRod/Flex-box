@@ -3,7 +3,7 @@
     padding: 0;
 }
 #caja1{
-    background-image: url(../img/bosque.jpg);
+    background-image: url(../img/nubes.jpg);
     width: 500px;
     height: 700px;
     display: flex;
@@ -15,3 +15,96 @@
     width: 350px;
 }
 
+#parrafo1{
+    color: white;
+}
+
+#caja2{
+    background-image: url(../img/espacio.jpg);
+    width: 450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 37%;
+    bottom: 700px; 
+
+}
+
+#imagen2{
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 20px;   
+    
+}
+
+#parrafo2{
+    position: absolute;
+    color: white;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    font-size: 15px;
+    top: 350px;
+    left: 5%;
+    text-align: justify;
+}
+
+#enlace2{
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 80px;
+    font-style: normal;
+    font-size: 14px;
+
+}
+#caja3{
+    background-image: url(../img/planeta.jpg);
+    width: 450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 70%;
+    bottom: 1400px; 
+
+}
+
+#imagen3{
+    width: 350px;
+    position: absolute;
+    left: 70px;
+    top: 30px;   
+    
+}
+
+#parrafo3{
+    position: absolute;
+    color: white;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    font-size: 14px;
+    top: 300px;
+    left: 5%;
+    text-align: justify;
+
+}
+
+#enlace3{
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 80px;
+    font-style: normal;
+    font-size: 14px;
+
+}
